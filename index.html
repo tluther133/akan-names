@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Akan Name Generator</title>
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+ <body>
+ <h1><em>Know Your Akan Name Today!</em></h1>
+ <p>Akan names, derived from <strong>Ghanaian Culture</strong>, are used to name children in Ghana according to the day of the week in which they were born. Here are some Akan names.</p>
+ <h2><em>Male</em></h2>
+  <ul>
+    <li>Sunday: <em>Kwasi</em></li>
+    <li>Monday: <em>Kwadwo</em></li>
+    <li>Tuesday: <em>Kwabena</em></li>
+    <li>Wednesday: <em>Kwaku</em></li>
+    <li>Thursday: <em>Yaw</em></li>
+    <li>Friday: <em>Kofi</em></li>
+    <li>Saturday: <em>Kwame</em></li>
+  </ul>
+<h2><em>Female</em></h2>
+  <ul>
+    <li>Sunday: <em>Akosua</em></li>
+    <li>Monday: <em>Adwoa</em></li>
+    <li>Tuesday: <em>Abenaa</em></li>
+    <li>Wednesday: <em>Akua</em></li>
+    <li>Thursday: <em>Yaa</em></li>
+    <li>Friday: <em>Afua</em></li>
+    <li>Saturday: <em>Ama</em></li>
+  </ul>
+    <div>
+     <form id="Form" onsubmit="return false" >
+      <strong>Day</strong>: <input type="number" name="day" id="date" min="1" max="30" required><br>
+      <strong>Month</strong>: <input type="number" name="Month of birth" id="month" min="1" max="12" required><br>
+      <strong>Year</strong>: <input type="number" name="Year of birth" id="year" min="1900" max="2020" required><br>
+      <input type="radio" name="gender" value="male"><em>Male</em>
+      <input type="radio" name="gender" value="female"><em>Female</em>
+      <button class="primary btn" onclick="Calculator ()">
+        Finish
+      </button>
+    </form>
+  </div>
+   <h4 id="alert"></h4>
+   <h4 id="alert2"></h4>
+    <script src="js/scripts.js"></script>
+  <a href= "README.md">About The Site
+ </body>
+</html>
